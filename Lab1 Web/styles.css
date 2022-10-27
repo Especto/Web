@@ -1,0 +1,138 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+div {
+    border: solid 1px black;
+}
+
+#headerX, #headerY {
+    background: whitesmoke;
+    height: 40%;
+    width: 13%;
+    margin: 3%;
+    font-size: 10px;
+}
+
+#x {
+    height: 70%;
+    width: 95%;
+    text-align: end;
+    background-color: whitesmoke;
+}
+
+#y {
+    height: 50%;
+    width: 95%;
+    text-align: start;
+    background-color: whitesmoke;
+    padding-left: 8px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-areas:
+            "first first first"
+            "second third forth"
+            "second third forth"
+            "second third forth"
+            "second third forth"
+            "fifth fifth forth"
+            "sixth sixth sixth";
+    grid-template-rows: fit-content(25%) max-content fit-content(8.3%) fit-content(25%);
+    justify-items: stretch;
+    background-color: cadetblue;
+    height: 100%;
+    width: 100%;
+}
+
+#first {
+    background-color: cornflowerblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    grid-area: first;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+#second {
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    grid-area: second;
+    padding: 20px;
+    font-size: 25px;
+
+}
+
+#third {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-area: third;
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 20px;
+}
+
+#forth {
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    padding-right: 10px;
+    padding-left: 10px;
+    grid-area: forth;
+    font-size: 20px;
+}
+
+#fifth {
+    background-color: honeydew;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    grid-area: fifth;
+    padding-left: 5px;
+    font-size: 18px;
+}
+
+#sixth {
+    background-color: cornflowerblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    grid-area: sixth;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+#image1 {
+    width: 60%;
+    padding-bottom: 5px;
+}
+
+list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer_text{
+    font-size: large;
+    margin-right: 5%;
+    align-items: end;
+    font-size: 20px;
+}
+
+

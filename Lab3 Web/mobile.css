@@ -1,0 +1,136 @@
+html, body {
+    height: 100%;
+}
+
+.container{
+    width: 100%;
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: column;
+}
+
+#firstbigflexbox {
+    display: flex;
+    flex-grow: 9.5;
+    width: inherit
+    width: 100%;
+}
+
+#secondbigflexbox{
+    display: flex;
+    flex-grow: 8;
+    width: 100%;
+}
+
+#thirdbigflexbox{
+    display: flex;
+    flex-grow: 33.5;
+}
+
+#second {
+    background-color: bisque;
+
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 0;
+
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+    font-size: 25px;
+}
+
+#third {
+    background-color: whitesmoke;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: flex-end;
+    align-items: center;
+    flex-grow: 1;
+    flex-shrink: 0;
+
+    padding: 0px 5px 0px 5px;
+    font-size: 20px;
+}
+
+#forth {
+    background-color: bisque;
+
+    display: flex;
+    flex-direction: column;
+
+    flex-grow: 1;
+    flex-shrink: 0;
+
+    justify-content: center;
+    align-items: center;
+
+    padding: 0px 10px 0px  10px;
+    font-size: 20px;
+}
+
+#fifth {
+    background-color: honeydew;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: flex-start;
+    flex-grow: 30;
+    flex-shrink: 0;
+    order: 2;
+
+    padding-left: 5px;
+    font-size: 18px;
+}
+
+#first, #sixth {
+    background-color: cornflowerblue;
+    flex-grow: 0.5;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0px 10px 0px 10px;
+}
+
+#first, #second, #third, #forth, #fifth, #sixth {
+    border: 1px solid black;
+}
+
+list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#headerX, #headerY {
+    background: whitesmoke;
+    height: 33%;
+    width: 33%;
+    margin: 2%;
+    font-size: 13px;
+}
+
+#footer_text{
+    margin: 5%;
+}
+
+#x, #y {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+#image1 {
+    width: 60%;
+    padding-bottom: 5px;
+}
