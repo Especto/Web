@@ -1,0 +1,144 @@
+html, body {
+    height: 100%;
+}
+
+.first, .second, .third, .forth, .fifth, .sixth, .headerX, .headerY {
+    border: 1px solid black;
+}
+
+.container{
+    width: 100%;
+    background-color: cadetblue;
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.firstbigflexbox {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.secondbigflexbox{
+    display: flex;
+    flex-flow: column nowrap;
+    flex-basis: 90%;
+}
+
+.thirdbigflexbox{
+    display: flex;
+    flex-flow: row nowrap;
+    height: 100%;
+}
+
+.second {
+    display: flex;
+    background-color: bisque;
+    flex-direction: column;
+    justify-content: center;
+    flex-basis: 25%;
+    font-size: 20px;
+}
+
+.third {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 80%;
+
+    padding: 0px 5px 0px 5px;
+    font-size: 20px;
+}
+
+.forth {
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    flex-basis: 20%;
+
+    padding: 0px 10px 0px  10px;
+    font-size: 20px;
+}
+
+.fifth {
+    background-color: honeydew;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: start;
+    margin-top: auto;
+
+    padding-left: 5px;
+    font-size: 18px;
+}
+
+.first, .sixth {
+    flex-basis: 16%;
+    display: flex;
+    background-color: cornflowerblue;
+    flex-direction: column;
+    flex-grow: 0.5;
+    flex-shrink: 0;
+
+    padding: 0px 10px 0px 10px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-basis: 100px;
+    align-items: center;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image1 {
+    width: 60%;
+    padding-bottom: 5px;
+}
+
+.headerX, .headerY {
+    display: flex;
+    background: whitesmoke;
+    height: 40%;
+    width: 13%;
+    font-size: 10px;
+}
+
+.x {
+    display: flex;
+    flex-basis: 100%;
+    justify-content: center;
+    font-size: 30px;
+    background-color: whitesmoke;
+}
+
+.y {
+    text-align: start;
+    background-color: whitesmoke;
+    padding-left: 8px;
+}
+
+.hidden {
+    display: none;
+}
+
+.addList {
+    display: flex;
+	flex-basis: 30px;
+	box-sizing: border-box;
+}
+
+footer_text{
+    margin-right: 5%;
+    align-items: end;
+    font-size: 20px;
+}
