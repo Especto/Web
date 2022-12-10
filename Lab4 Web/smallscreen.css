@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    height: 3%;
+    padding: 2%;
+    flex-grow: 1;
+    flex-wrap: nowrap;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer{
+    display: flex;
+    height: fit-content;
+    padding: 3%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    background-color: #333333;
+    flex-grow: 1;
+    flex-wrap: nowrap;
+}
+
+#main{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    background: white;
+}
+
+.picture{
+    display: flex;
+    flex-direction: row;
+    flex-grow: inherit;
+    align-items: center;
+    justify-content: center;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 3%;
+    padding-bottom: 5%;
+}
+
+.content-blocks{
+    display: flex;
+    row-gap: 20px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5%;
+}
+
+.content-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+
+.Block{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    height: 140px;
+    width: 215px;
+    margin: 1%;
+    border: solid darkorange 4px;
+}
+
+
+.logo-blocks {
+    display: flex;
+    position: absolute;
+    top: -10px;
+    left: 38%;
+    width: 30%;
+    height: 30%;
+    font-size: 45px;
+    color: darkorange;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+p{
+    padding-right: 7%;
+    padding-left: 7%;
+    width: 60%;
+}
+
+img {
+    height: 200px;
+    width: 100%;
+}
+
+.footer-text{
+    width: 33%;
+}
+
+.hoverable:hover{
+    cursor: pointer;
+    color: orangered;
+    transition-duration: 1.25s;
+    padding-bottom: 30px;
+    font-size: 40px;
+}
+
+#logo:hover, #burger:hover{
+    cursor: pointer;
+    color: darkorange;
+}
+
